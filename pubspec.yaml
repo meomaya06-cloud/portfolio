@@ -1,0 +1,34 @@
+name: portfolio_app
+description: A Flutter portfolio app
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  url_launcher: ^6.1.10 # Add this
+
+  flutter_launcher_icons: ^0.14.4
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "images/p.icon.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - images/m.jpeg
+    - images/bg.jpg
+    - images/p.icon.png
